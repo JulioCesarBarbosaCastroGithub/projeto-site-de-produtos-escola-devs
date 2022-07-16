@@ -179,6 +179,60 @@ input[type=text] {
     cursor: pointer;
 }
 
+/* CSS PÁGINA DESCRIÇÃO PRODUTO */
+
+.produto-detalhes {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 20px;
+
+}
+
+.produto-detalhes .box1 {
+    width: 30%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.produto-detalhes .box1 .imagem {
+    width: 280px;
+    
+}
+
+.img-produto {
+    width: 100%;
+}
+
+.produto-detalhes .box2 {
+    width: 70%;
+    width: 300px;
+}
+
+.texto-descricao-produto {
+    color: #000;
+}
+
+.produto-detalhes .box2 .pagamento {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.btncomprar {
+    padding-left: 20px;
+}
+
+.produto-descricao-grande {
+    border: 2px dashed rgb(56,151,253);
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 40px;
+}
+
 @keyframes animacaoTexto {
     0% {
         opacity: 0;
